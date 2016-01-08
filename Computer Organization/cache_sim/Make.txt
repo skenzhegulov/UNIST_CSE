@@ -1,0 +1,33 @@
+	@./cache_sim 32 1 32 ls.trace
+	@echo
+	@./cache_sim 64 1 32 ls.trace
+	@echo
+	@./cache_sim 128 1 32 ls.trace
+	@echo
+	@./cache_sim 256 1 32 ls.trace
+	@echo
+	@./cache_sim 512 1 32 ls.trace
+	@echo
+	@./cache_sim 1024 1 32 ls.trace
+	@echo
+	@./cache_sim 256 1 32 ls.trace
+	@echo
+	@./cache_sim 128 2 32 ls.trace
+	@echo
+	@./cache_sim 64 4 32 ls.trace
+	@echo
+	@./cache_sim 32 8 32 ls.trace
+	@echo
+	@./cache_sim 16 16 32 ls.trace
+	@echo
+	@./cache_sim 1024 1 8 ls.trace
+	@echo
+	@./cache_sim 512 1 16 ls.trace
+	@echo
+	@./cache_sim 256 1 32 ls.trace
+	@echo
+	@./cache_sim 128 1 64 ls.trace
+	@echo
+	@./cache_sim 64 1 128 ls.trace
+	@echo
+

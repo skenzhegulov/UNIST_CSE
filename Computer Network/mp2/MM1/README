@@ -1,0 +1,10 @@
+contents:
+	echoClient - tx udp datagram, rx udp datagram from the server
+	echoServer - echo the received udp datagram to the client
+
+compile:
+	make
+
+usage:
+	at echoServer: ./echoServer <port #(10000~30000)> <fixed delay(1~1000ms)> <bandwidth(1~1000Kbps)>
+	at echoClient: ./echoClient <server_ip_addr> <server_port_#> <pkt_size> "string"

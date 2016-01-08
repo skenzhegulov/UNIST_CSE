@@ -1,0 +1,15 @@
+contents:
+	echoClient - tx udp datagram, rx udp datagram from the server
+	echoServer - echo the received udp datagram to the client
+	myheader - header file 
+
+compile:
+	make
+
+usage:
+	at echoServer: ./echoServer <port #>
+	at echoClient: ./echoClient <server ip address> <server port #> "string"
+
+Things To Do
+	Based on the echo server/client, build your server/client programs,
+	as specified in the project description.
